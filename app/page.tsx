@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Hero from "./components/hero/Hero";
+import Portfolio from "./components/portfolio/Portfolio";
 import PriceTable from "./components/pricesTable/PriceTable";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <main className="">
         <Hero/>
         <PriceTable/>
-        
+        <Portfolio/>
       </main>
       
     </div>
